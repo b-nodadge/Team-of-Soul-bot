@@ -43,7 +43,7 @@ module.exports = {
               user.send(`현재 13버전으로 각 서버에 계신 소유자님분께 DM메세지를 보내고 있습니다. 님은 현재 \n**${guild.name}**\n서버의 소유자시군요. 메세지가 DM으로 오셨다면 자기 서버에서 \"?문의 테스트 성공\"으로 문의를 주세요.`)
                 });
               } catch(error){
-                  minteraction.reply(`오류:${error}`);
+                  interaction.reply(`오류:${error}`);
               };
     });
     } else{
