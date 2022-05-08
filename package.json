@@ -16,7 +16,7 @@
     "ffmpeg-static": "^5.0.0",
     "fs": "^0.0.1-security",
     "node": "^17.7.1",
-    "node-fetch": "^2.6.3",
+    "node-fetch": "^2.6.1",
     "npm": "^8.5.5",
     "path": "^0.12.7",
     "pretty-ms": "^7.0.1",
