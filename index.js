@@ -69,12 +69,13 @@ client.once('ready',  async ()=>{
 		.setTitle("봇 실행로그")
 		.setDescription(`실행시간 : <t:${time}>`)
 		.setTimestamp(new Date())
+		.setColor("GREEN")
 	client.channels.cache.get('880457103335108659').send({embeds:[sembed]})
 	let number = 0;
 	setInterval(() => {
 		///*
 		const listurl = ["https://twitch.tv/b_nodadge", "https://www.twitch.tv/alpha_beta_gamm_a"];
-		const listtype = ["대지 트위치", "감마 트위치","현재 13으로 업글중(사용가능)"];
+		const listtype = ["대지 트위치", "감마 트위치","호스팅은 헤로쿠"];
     const actype = ["STREAMING","STREAMING","PLAYING"]
 		client.user.setActivity(listtype[number],{ type: actype[number] , url:listurl[number]})
 		number++

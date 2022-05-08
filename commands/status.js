@@ -46,8 +46,7 @@ module.exports = {
           inline: true,
         },
         { name: "Discord.js", value: `v13.6.0`, inline: true },
-        { name: "Node.js", value: `v16.14.2`, inline: true },
-        { name: "TTS", value: `v${version}`, inline: true }
+        { name: "Node.js", value: `v16.14.2`, inline: true }
       )
       .setFooter({
         text: "BOT",
