@@ -6,7 +6,8 @@ const fs = require('fs');
 const { DiscordTogether } = require('discord-together');
 const { error } = require('console');
 client.discordTogether = new DiscordTogether(client);
-const Dokdo = require('dokdo')
+const Dokdo = require('dokdo');
+const { ClientRequest } = require('http');
 const DokdoHandler = new Dokdo(client, { aliases: ['d'], prefix: `${prefix}` , owners: ['507116488998518784','748053165886275604','845307537593991218'], shell: process.env.SHELL}) //대지 , 피치애로우 , 룰루90
 //const { REST } = require('@discord/rest')
 //const { Routes } = require('discord-api-types')
@@ -71,18 +72,19 @@ client.once('ready',  async ()=>{
 		.setTimestamp(new Date())
 		.setColor("GREEN")
 	client.channels.cache.get('880457103335108659').send({embeds:[sembed]})
-	let number = 0;
-	setInterval(() => {
+	//let number = 0;
+	//setInterval(() => {
 		///*
-		const listurl = ["https://twitch.tv/b_nodadge", "https://www.twitch.tv/alpha_beta_gamm_a"];
-		const listtype = ["대지 트위치", "감마 트위치","호스팅은 헤로쿠"];
-    const actype = ["STREAMING","STREAMING","PLAYING"]
-		client.user.setActivity(listtype[number],{ type: actype[number] , url:listurl[number]})
-		number++
-		if(number > 2) number = 0;
+	//	const listurl = ["https://twitch.tv/b_nodadge", "https://www.twitch.tv/alpha_beta_gamm_a"];
+	//	const listtype = ["대지 트위치", "감마 트위치","호스팅은 헤로쿠"];
+   // const actype = ["STREAMING","STREAMING","PLAYING"]
+	//	client.user.setActivity(listtype[number],{ type: actype[number] , url:listurl[number]})
+		client.user.setActivity("?명령어",{type: "PLAYING"})
+	//	number++
+		//if(number > 2) number = 0;
 		//*/
 		//client.user.setActivity("점검중...", { type: "PLAYING"}) //테스트 할 때(테스트 할때)
-	},4000)
+	//},4000)
 })
 
 
