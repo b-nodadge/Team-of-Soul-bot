@@ -1,4 +1,13 @@
 {
   "prefix": "?",
-  "token": "ODcxMzAwOTE2MjUzNDI5Nzkw.YQZUNg.WjrhDoZJOHtEQu0d_3TxlvuOw2E"
+  "token": "ODcxMzAwOTE2MjUzNDI5Nzkw.YQZUNg.WjrhDoZJOHtEQu0d_3TxlvuOw2E",
+  "clientsettings": {
+    "nodes": [
+       {
+          "host": "usa.lavalink.mitask.tech",
+          "port": 2333,
+          "password": "lvserver"
+       }
+    ]
+ }
 }
