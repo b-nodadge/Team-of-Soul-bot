@@ -15,8 +15,7 @@ module.exports = {
         {name:"개발환경",value:"Node.js\(16↑\), Javascrpit, Repl It, discord.js\(13.6.0\)"},
         {name:"운영환경",value:"Node.js, Javascript, Repl It, Uptime Robot"},
         {name:"연락 E-Mail",value:"\`Kakao Mail\` nodadge@kakao.com  \n  \`Naver Mail\` gilbert8767@naver.com"},
-        {name:"Discord",value:"[b]nodadge\`#0206\`"},
-        {name:"개발에 도움을 준 분들",value:"NB_ang\`#2177\` \n 흰곰\`#5517\`"})
+        {name:"Discord",value:"[b]nodadge\`#0206\`"})
         .setColor("#1d1e49")
         .setFooter({text: "-made by [b]nodadge#0206-"})
     await interaction.reply({embeds :[embed]})
